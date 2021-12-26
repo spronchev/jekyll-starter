@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  branch: spronchev/jekyll-starter
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
