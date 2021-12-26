@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: spronchev/jekyll-starter
+  repo: spronchev/jekyll-starter
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
