@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/spronchev/jekyll-starter
+  repo: 'https://github.com/spronchev/jekyll-starter'
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
