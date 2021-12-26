@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: https://github.com/spronchev/jekyll-starter.git
+  name: git-gateway
+  branch: master
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
