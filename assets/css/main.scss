@@ -2,5 +2,159 @@
 ---
 @import 'bootstrap/bootstrap';
 
+main {
+    background-color: #000000;
+}
+h3 {
+    color: white;
+}
+li {
+    margin-left: -5%;
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-left: 18px;
+    opacity: 1;
+}
+
+.navbar-expand-lg {
+    height: 189px;
+}
 
 
+.quick-scan {
+    font-weight: bolder;
+    border-radius: 90%;
+    opacity: 1;
+    text-align: center;
+    margin:auto;
+}
+.quick-scan-bg {
+    width:150px;
+    font-size:25px;
+    border-radius: 25px;
+    margin-left: 18px;
+    background: #C6D658 0% 0%;
+}
+
+.t {
+    background-image: url("../img/image-2.jpg");
+    width:100%;
+    height:550px;
+    background-size: cover;
+}
+
+.bg-navy-blue {
+    background: #79C0D6 0% 0% no-repeat padding-box;
+    opacity: 0.43;
+}
+
+.card {
+    width:50%;
+    height:auto;
+    border: none;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+
+  .dwd-button {
+    border-radius: 25px;
+    background: #C6D658 0% 0%;
+  }
+
+  .top-right {
+    margin-top:20%;
+    margin-left:32%;
+  }
+
+  @media screen and (max-width: 800px) {
+    .top-right {
+        margin-top:50%;
+        margin-left:12%;
+      }
+  }
+
+  @media screen and (max-width: 800px) {
+    .space {
+        width:auto;
+        height:50px;
+    }
+  }
+
+  .space {
+      width:auto;
+      height:150px;
+  }
+
+  .background-numbers {
+      background-image: url("../img/shuttershock-bg.jpeg");
+      background-size:100%;
+      background-repeat: no-repeat;
+  }
+
+  div.background {
+    background-image: url("../img/image-2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .ubuntu {
+    font: normal normal normal 25px Ubuntu;
+    color: #FFFFFF;
+  }
+
+  .montserrat {
+      font: normal normal normal 25px Montserrat;
+      color: #FFFFFF;
+  }
+  
+  .montserrat-bold {
+      font: normal normal bold 26px Montserrat;
+      color: #FFFFFF;
+  }
+
+  .ubuntu-bold{
+    font: normal normal bold 53px Ubuntu;
+    color: #FFFFFF;
+  }
+  
+  .top-right-left-radius {
+    border-top-right-radius:5%;
+    border-top-left-radius:5%;
+  }
+
+  .bg-black {
+      background-color: #000000;
+  }
+
+  .bg-white {
+    background-color: #FFFFFF;
+  }
+  .white {
+      color:#FFFFFF;
+  }
+  .black {
+      color: #000000;
+  }
+  .line-height-small {
+      line-height: 1px;
+  }
+  .radius {
+      border-radius: 20px;
+  }
+
+
+
+  
+  
+  

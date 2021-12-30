@@ -1,5 +1,21 @@
 <!-- JS -->
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<footer>
+    <img src="assets/img/shutterstock_691552603c.jpeg" class="img-fluid" />
+    <div class="container-fluid" style="background-color: black;">
+        <div class="container" style="padding:2%">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-3">
+                    <h3 style="margin-left:2%">Navigatie</h3>
+                        {% for item in site.data.navbar %}
+                        <a class="text-start nav-link line-height-small white" href="{{ item.url }}">{{ item.name}}</a>
+                        {% endfor %}
+                </div>
+                <div class="col-md-6 col-sm-3 align-self-start">
+                    <h3>Contact</h3>
+                    <a href="mailto:tobedone.nl" class="text-start">Hello@digilink.nl</a>
+                    <p class="text-start white">Emmen, Assen, Hoogeveen</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

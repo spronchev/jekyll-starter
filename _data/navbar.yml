@@ -1,6 +1,12 @@
 - name: Home
   link: /
-- name: About
-  link: /about
-- name: Contact
-  link: /contact
+- name: Over ons
+  link: /over-ons
+- name: Aanbod
+  link: /aanbod
+- name: Workshops & Masterclasses
+  link: /workshop-masterclass
+- name: Opleidingen & Studenten
+  link: /opleidingen-studenten
+- name: Referentie Cases
+  link: /referentie-cases
