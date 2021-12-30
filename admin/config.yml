@@ -8,7 +8,7 @@ collections:
     files:
     - label: "Home page"
       name: "homepage"
-      file: "_data/homepage.yml"
+      file: "../_data/homepage.yml"
       fields:
         - label: "Header section"
           name: "header"
