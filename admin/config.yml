@@ -3,7 +3,7 @@ backend:
   repo: spronchev/jekyll-starter
 media_folder: '_site/assets/img'
 collections:
- - name: "pages"
+  - name: "pages"
     label: "Pages"
     files:
       - file: "site/_data/homepage.yml"
