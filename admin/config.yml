@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: spronchev/jekyll-starter
-media_folder: '../assets/img'
+media_folder: '../assets/img/'
 collections:
   - name: 'pages'
     label: 'Pages'
@@ -11,7 +11,7 @@ collections:
       file: "../_data/homepage.yml"
       fields:
         - label: "Header section"
-          name: "header"
+          name: "title"
           widget: "object"
           fields:
             - label: "Title"
