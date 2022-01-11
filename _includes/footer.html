@@ -1,19 +1,24 @@
 <!-- JS -->
 <footer>
-    <img src="assets/img/shutterstock_691552603c.jpeg" class="img-fluid" />
-    <div class="container-fluid" style="background-color: black;">
-        <div class="container" style="padding:2%">
+    <div class="container-fluid bg-black">
+        <div class="container p-5">
             <div class="row align-items-center">
-                <div class="col-md-6 col-sm-3">
-                    <h3 style="margin-left:2%">Navigatie</h3>
-                        {% for item in site.data.navbar %}
-                        <a class="text-start nav-link line-height-small white" href="{{ item.url }}">{{ item.name}}</a>
-                        {% endfor %}
+                <div class="col-sm-1 col-sm-3">
+                    <h3 class="ms-3">Navigatie</h3>
+                        <a class="text-start nav-link line-height-small white" href="../index.html">Home</a>
+                        <a class="text-start nav-link line-height-small white" href="../index.html">Over ons</a>
+                        <a class="text-start nav-link line-height-small white" href="../index.html">Werkwijze</a>
+                        <a class="text-start nav-link line-height-small white" href="../index.html">Aanbod</a>
                 </div>
-                <div class="col-md-6 col-sm-3 align-self-start">
+                <div class="col-sm-3 align-self-start mt-4 pt-3">
+                    <a class="text-start nav-link line-height-small white" href="../index.html">Workshops & masterclasses</a>
+                    <a class="text-start nav-link line-height-small white" href="../index.html">Opleiding & studenten</a>
+                    <a class="text-start nav-link line-height-small white" href="../index.html">Locaties</a>
+                </div>
+                <div class="col-sm-1 col-sm-3 mb-4">
                     <h3>Contact</h3>
-                    <a href="mailto:tobedone.nl" class="text-start">Hello@digilink.nl</a>
-                    <p class="text-start white">Emmen, Assen, Hoogeveen</p>
+                    <a href="mailto:tobedone.nl" class="text-start white line-height-small" style="text-decoration: none;">Hello@digilink.nl</a>
+                    <p class="text-start line-height-small white">Emmen, Assen, Hoogeveen</p>
                 </div>
             </div>
         </div>

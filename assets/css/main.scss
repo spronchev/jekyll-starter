@@ -96,17 +96,45 @@ li {
       height:150px;
   }
 
+  .space-550 {
+      width:auto;
+      height:350px;
+  }
+
   .background-numbers {
       background-image: url("../img/shuttershock-bg.jpeg");
       background-size:100%;
       background-repeat: no-repeat;
   }
 
-  div.background {
+  div.background-start-home {
     background-image: url("../img/image-2.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
+
+  div.background-start-overons {
+    background-image: url("../img/niew-overons.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  div.background-start-aanbod {
+    background-image: url("../img/aanbod2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  div.background-start-masterclass {
+    background-image: url("../img/Masterclasses.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  div.yellow {
+    color: #C6D658;
+  }
+
 
   .ubuntu {
     font: normal normal normal 25px Ubuntu;
@@ -119,12 +147,14 @@ li {
   }
   
   .montserrat-bold {
-      font: normal normal bold 26px Montserrat;
+      font: bolder bolder bolder 55px Montserrat;
+      font-weight:bolder;
       color: #FFFFFF;
   }
 
   .ubuntu-bold{
-    font: normal normal bold 53px Ubuntu;
+    font: bolder bolder bolder 55px Ubuntu;
+    font-weight:bolder;
     color: #FFFFFF;
   }
   
@@ -147,14 +177,11 @@ li {
       color: #000000;
   }
   .line-height-small {
-      line-height: 1px;
+      line-height: 2px;
   }
   .radius {
       border-radius: 20px;
   }
-
-
-
   
   
   
