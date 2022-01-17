@@ -1,7 +1,9 @@
+site_url: http://localhost:4000
 backend:
-  name: git-gateway
+  name: github
   repo: spronchev/jekyll-starter
   branch: main
+
 media_folder: '../assets/img'
 collections:
   - name: "pages"
@@ -11,5 +13,12 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Title Header One, name: title_first, widget: string}
+          - {label: Title Header Two, name: title_second, widget: string}
+          - {label: Sub Title, name: title_sub, widget: string}
+          - {label: Button Text, name: text_button, widget: string}
+          - {label: "Description", name: "text_description", widget: "text"}
+          - {label: Description Sub Text One, name: text_description_first, widget: string}
+          - {label: Description Sub Text Two, name: text_description_second, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", choose_url: true, default: "/assets/img/aanbod.jpg"}
 
