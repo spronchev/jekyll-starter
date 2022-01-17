@@ -10,8 +10,8 @@ text_description: Ben jij mkb-ondernemer, wil je graag tijd en geld besparen met
 text_description_second: GINGEN JOU AL VOOR
 image_text_button:
   box_one:
-    image_first: /assets/img/shutterstock_567426403.jpg
-    title_first: Klaas
-    title_second: Caramba
-    text_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-    text_button: Lees meer
+    box_image_first: /assets/img/shutterstock_567426403.jpg
+    box_title_first: Klaas
+    box_title_second: Caramba
+    box_text_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+    box_text_button: Lees meer

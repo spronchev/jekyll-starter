@@ -30,11 +30,11 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: image_one, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
-                  - {label: Title One, name: title_one, widget: string}
-                  - {label: Title Two, name: title_two, widget: string}
-                  - {label: Description Text, name: text_one, widget: text}
-                  - {label: Button Text, name: button_one, widget: string}
+                  - {label: Featured Image, name: box_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Title One, name: box_title_first, widget: string}
+                  - {label: Title Two, name: box_title_first, widget: string}
+                  - {label: Description Text, name: box_text_description, widget: text}
+                  - {label: Button Text, name: box_text_button, widget: string}
               # - label: "Box Two"
               #   widget: "object"
               #   collapsed: true
