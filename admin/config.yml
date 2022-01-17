@@ -25,7 +25,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: Featured Image, name: image_one, widget: image, choose_url: true, default: "assets/img/shutterstock_508654513.jpg"}
+              - {label: Featured Image, name: image_one, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
               - {label: Title One, name: title_one, widget: string}
               - {label: Title Two, name: title_two, widget: string}
               - {label: Description Text, name: text_one, widget: text}
