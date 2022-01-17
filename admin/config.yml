@@ -22,7 +22,7 @@ collections:
           - {label: Description Sub Text Two, name: text_description_second, widget: string}
           - label: "Images with text and button"
             name: "image_text_button"
-            widget: "object"
+            widget: "list"
             collapsed: true
             fields:
               - label: "Box One"
@@ -30,18 +30,19 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: box_image_one, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
-                  - {label: Title One, name: box_title_one, widget: string}
-                  - {label: Title Two, name: box_title_two, widget: string}
-                  - {label: Description Text, name: box_text_one, widget: text}
-                  - {label: Button Text, name: box_button_one, widget: string}
-              # - label: "Box Two"
-              #   widget: "object"
-              #   collapsed: true
-              #   fields:
-              #     - {label: Featured Image, name: image_one, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
-              #     - {label: Title One, name: title_one, widget: string}
-              #     - {label: Title Two, name: title_two, widget: string}
-              #     - {label: Description Text, name: text_one, widget: text}
-              #     - {label: Button Text, name: button_one, widget: string}
+                  - {label: Featured Image, name: box_one_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Title One, name: box_one_title_first, widget: string}
+                  - {label: Title Two, name: box_one_title_second, widget: string}
+                  - {label: Description Text, name: box_one_text_description, widget: text}
+                  - {label: Button Text, name: box_one_text_button, widget: string}
+              - label: "Box Two"
+                name: "box_two"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: Featured Image, name: box_two_image_one, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Title One, name: box_two_title_one, widget: string}
+                  - {label: Title Two, name: box_two_title_two, widget: string}
+                  - {label: Description Text, name: box_two_text_one, widget: text}
+                  - {label: Button Text, name: box_two_button_one, widget: string}
 
