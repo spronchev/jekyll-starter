@@ -17,8 +17,17 @@ collections:
           - {label: Title Header Two, name: title_second, widget: string}
           - {label: Sub Title, name: title_sub, widget: string}
           - {label: Button Text, name: text_button, widget: string}
-          - {label: "Description", name: "text_description", widget: "text"}
+          - {label: Description, name: text_description, widget: text}
           - {label: Description Sub Text One, name: text_description_first, widget: string}
           - {label: Description Sub Text Two, name: text_description_second, widget: string}
-          - {label: "Featured Image", name: "thumbnail", widget: "image", choose_url: true, default: "/assets/img/aanbod.jpg"}
+          - label: "Images with text and button"
+            name: "image_text_button"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: Featured Image, name: image_one, widget: image, choose_url: true, default: "assets/img/shutterstock_508654513.jpg"}
+              - {label: Title One, name: title_one, widget: string}
+              - {label: Title Two, name: title_two, widget: string}
+              - {label: Description Text, name: text_one, widget: text}
+              - {label: Button Text, name: button_one, widget: string}
 
