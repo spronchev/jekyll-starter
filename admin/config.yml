@@ -1,12 +1,13 @@
-site_url: http://localhost:4000
+site_url: https://digilinkdrenthe.netlify.app
 backend:
   name: github
   repo: spronchev/jekyll-starter
   branch: main
-
+publish_mode: editorial_workflow
 media_folder: '/assets/img'
 collections:
   - name: "pages"
+    preview_path: ../index
     label: "Pages"
     files:
       - file: "_data/homepage.yml"
