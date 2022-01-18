@@ -63,8 +63,8 @@ collections:
                   - {label: Featured Image, name: box_four_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
                   - {label: Title, name: box_four_title_first, widget: string}
                   - {label: Sub Title, name: box_four_title_second, widget: string}
-                  - {label: Description, name: box_four_text_first, widget: text}
-                  - {label: Button Text, name: box_four_button_first, widget: string}
+                  - {label: Description, name: box_four_text_description, widget: text}
+                  - {label: Button Text, name: box_four_text_button, widget: string}
           - label: "Sub main body"
             name: "sub_main"
             widget: "object"
