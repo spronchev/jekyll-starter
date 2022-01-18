@@ -20,19 +20,19 @@ image_text_button:
   box_two:
     box_two_image_first: /assets/img/shutterstock_567426403.jpg
     box_two_title_first: Klaas
-    box_two_title_second: Caramba F
+    box_two_title_second: Caramba
     box_two_text_description: Lorem ipsum dolor sitf amet, consetetur sadipscing elitr,
     box_two_text_button: Lees meer
   box_three:
     box_three_image_first: /assets/img/shutterstock_567426403.jpg
     box_three_title_first: Klaas
     box_three_title_second: Caramba
-    box_three_text_description: Lorem ipsum dolor fsit amet, consetetur sadipscing elitr,
-    box_three_text_button: Lees meer 
+    box_three_text_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+    box_three_text_button: Lees meer
   box_four:
     box_four_image_first: /assets/img/shutterstock_567426403.jpg
-    box_four_title_first: Klafas
-    box_four_title_second: Carambfa
+    box_four_title_first: Klaas
+    box_four_title_second: Caramba
     box_four_text_description: Lorem ipsum dolor sfit amet, consetetur sadipscing elitr,
     box_four_text_button: Lees meer
 sub_main:
@@ -40,26 +40,31 @@ sub_main:
   sub_main_first:
     sub_main_image_first: /assets/img/aanmelden.png
     sub_main_title_first: Aanmelden
-    sub_main_text_first: U ziet kansen en mogelijkheden om
-            ‘iets’ met data en digitalisering te ondernemen. Wat zijn de mogelijkheden voor uw bedrijf? Daarom
-            beginnen we met een intakegesprek. Met een quickscan en een gesprek brengen we samen uw innovatievraagstuk
-            in kaart. Vervolgens koppelt Digilink Drenthe de studenten aan uw vraagstuk ondersteund door docenten en
-            experts uit ons team.
+    sub_main_text_first: U ziet kansen en mogelijkheden om ‘iets’ met data en
+      digitalisering te ondernemen. Wat zijn de mogelijkheden voor uw bedrijf?
+      Daarom beginnen we met een intakegesprek. Met een quickscan en een gesprek
+      brengen we samen uw innovatievraagstuk in kaart. Vervolgens koppelt
+      Digilink Drenthe de studenten aan uw vraagstuk ondersteund door docenten
+      en experts uit ons team.
   sub_main_second:
     sub_main_image_second: /assets/img/opdracht.png
     sub_main_title_second: Opdricht
-    sub_main_text_second: Digilink Drenthe kijkt welk
-            opleiding- en opleidingsniveau het beste aansluit bij uw digitale uitdaging. Wij koppelen studenten aan uw
-            vraagstuk, op basis van stagiair of op projectbasis. De studenten worden begeleid door docenten en
-            experts. Voor de inzet van studenten worden geen kosten gerekend. Belangrijk om vooraf te weten is dat we
-            tijdige inzet van studenten niet kunnen garanderen. Dit is afhankelijk van bijvoorbeeld stage- en
-            afstudeerperiodes, de onderwijskundige eisen, de inhoud van uw vraag en het keuzeproces van de studenten
-            zelf. Vanzelfsprekend doen we ons uiterste best om zo snel mogelijk de perfecte match te vinden.
+    sub_main_text_second: Digilink Drenthe kijkt welk opleiding- en opleidingsniveau
+      het beste aansluit bij uw digitale uitdaging. Wij koppelen studenten aan
+      uw vraagstuk, op basis van stagiair of op projectbasis. De studenten
+      worden begeleid door docenten en experts. Voor de inzet van studenten
+      worden geen kosten gerekend. Belangrijk om vooraf te weten is dat we
+      tijdige inzet van studenten niet kunnen garanderen. Dit is afhankelijk van
+      bijvoorbeeld stage- en afstudeerperiodes, de onderwijskundige eisen, de
+      inhoud van uw vraag en het keuzeproces van de studenten zelf.
+      Vanzelfsprekend doen we ons uiterste best om zo snel mogelijk de perfecte
+      match te vinden.
   sub_main_third:
     sub_main_image_third: /assets/img/blijven-innoveren.png
     sub_main_title_third: Blijven innoveren
-    sub_main_text_third: Onze studenten geven een praktisch
-            advies, waarmee u zelf aan slag kan of we brengen u in contact met relevante marktpartijen. We hebben een
-            ruim netwerk van gespecialiseerde ICT-, software- en online marketing bedrijven. Zo kunt u zelf een
-            vervolg geven aan uw uitdaging en blijven innoveren.
+    sub_main_text_third: Onze studenten geven een praktisch advies, waarmee u zelf
+      aan slag kan of we brengen u in contact met relevante marktpartijen. We
+      hebben een ruim netwerk van gespecialiseerde ICT-, software- en online
+      marketing bedrijven. Zo kunt u zelf een vervolg geven aan uw uitdaging en
+      blijven innoveren.
   sub_main_text_button: Bekjik ons aanbod
