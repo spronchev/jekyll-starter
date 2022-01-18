@@ -43,8 +43,8 @@ collections:
                   - {label: Featured Image, name: box_two_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
                   - {label: Title One, name: box_two_title_first, widget: string}
                   - {label: Title Two, name: box_two_title_second, widget: string}
-                  - {label: Description Text, name: box_two_text_first, widget: text}
-                  - {label: Button Text, name: box_two_button_first, widget: string}
+                  - {label: Description Text, name: box_two_text_description, widget: text}
+                  - {label: Button Text, name: box_two_text_button, widget: string}
               - label: "Box Three"
                 name: "box_three"
                 widget: "object"
@@ -53,8 +53,8 @@ collections:
                   - {label: Featured Image, name: box_three_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
                   - {label: Title One, name: box_three_title_first, widget: string}
                   - {label: Title Two, name: box_three_title_second, widget: string}
-                  - {label: Description Text, name: box_three_text_first, widget: text}
-                  - {label: Button Text, name: box_three_button_first, widget: string}
+                  - {label: Description Text, name: box_three_text_description, widget: text}
+                  - {label: Button Text, name: box_three_text_button, widget: string}
               - label: "Box Four"
                 name: "box_four"
                 widget: "object"
