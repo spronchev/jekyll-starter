@@ -93,7 +93,7 @@ collections:
                   collapsed: true
                   fields:
                     - {label: Image, name: sub_main_image_third, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
-                    - {label: Title, name: sub_main_third, widget: string}
+                    - {label: Title, name: sub_main_title_third, widget: string}
                     - {label: Description, name: sub_main_text_third, widget: text}
                 - {label: Button Text, name: sub_main_text_button, widget: string}
     
