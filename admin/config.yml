@@ -40,31 +40,31 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: box_two_image_one, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
-                  - {label: Title One, name: box_two_title_one, widget: string}
-                  - {label: Title Two, name: box_two_title_two, widget: string}
-                  - {label: Description Text, name: box_two_text_one, widget: text}
-                  - {label: Button Text, name: box_two_button_one, widget: string}
+                  - {label: Featured Image, name: box_two_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Title One, name: box_two_title_first, widget: string}
+                  - {label: Title Two, name: box_two_title_second, widget: string}
+                  - {label: Description Text, name: box_two_text_first, widget: text}
+                  - {label: Button Text, name: box_two_button_first, widget: string}
               - label: "Box Three"
                 name: "box_three"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: box_three_image_one, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
-                  - {label: Title One, name: box_three_title_one, widget: string}
-                  - {label: Title Two, name: box_three_title_two, widget: string}
-                  - {label: Description Text, name: box_three_text_one, widget: text}
-                  - {label: Button Text, name: box_three_button_one, widget: string}
+                  - {label: Featured Image, name: box_three_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Title One, name: box_three_title_first, widget: string}
+                  - {label: Title Two, name: box_three_title_second, widget: string}
+                  - {label: Description Text, name: box_three_text_first, widget: text}
+                  - {label: Button Text, name: box_three_button_first, widget: string}
               - label: "Box Four"
                 name: "box_four"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: box_four_image_one, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
-                  - {label: Title, name: box_four_title_one, widget: string}
-                  - {label: Sub Title, name: box_four_title_two, widget: string}
-                  - {label: Description, name: box_four_text_one, widget: text}
-                  - {label: Button Text, name: box_four_button_one, widget: string}
+                  - {label: Featured Image, name: box_four_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Title, name: box_four_title_first, widget: string}
+                  - {label: Sub Title, name: box_four_title_second, widget: string}
+                  - {label: Description, name: box_four_text_first, widget: text}
+                  - {label: Button Text, name: box_four_button_first, widget: string}
           - label: "Sub main body"
             name: "sub_main"
             widget: "object"
