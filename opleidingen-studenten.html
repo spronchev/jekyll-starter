@@ -14,7 +14,7 @@ title: Home
                 <div class="space-550"></div>
             </div>
             <div class="col-auto text-center">
-                <h1 class="ubuntu-bold" style="font-size: 70px;">Opleidingen & Studenten</h1>
+                <h1 class="ubuntu-bold" style="font-size: 70px;">{{ site.data.opleidingen_studenten.title }}</h1>
             </div>
             <div class="col">
                 <div class="space mt-5"></div>
@@ -23,36 +23,29 @@ title: Home
     </div>
     <div class="album py-5 top-right-left-radius bg-white">
         <div class="container">
-            <section class="py-5 text-center">
+            <section class="py-5 text-center mb-5">
                 <div class="row py-md-8">
                     <div class="col-xl-10 col-md-8 mx-auto">
-                        <h3 class="text-start montserrat-bold black" style="font-size: 55px;">ONZE STUDENTEN</h3>
-                        <h3 class="text-start ubuntu-bold" style="font-size: 65px; color:#C6D658">En opleidingen</h3>
-                        <p class="text-start ubuntu black">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                            diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                            et ea rebum. Stet clita.</p>
+                        <h3 class="text-start montserrat-bold black" style="font-size: 55px;">{{ site.data.opleidingen_studenten.os_sub_main.title }}</h3>
+                        <h3 class="text-start ubuntu-bold" style="font-size: 65px; color:#C6D658">{{ site.data.opleidingen_studenten.os_sub_main.sub_title }}</h3>
+                        <p class="text-start ubuntu black">{{ site.data.opleidingen_studenten.os_sub_main.description }}</p>
                     </div>
                 </div>
             </section>
         </div>
-    </div>
-
-</div>
-<div class="container-fluid marketing bg-black">
-    <div class="space"></div>
-    <div class="container">
-        <section class="py-5 text-center">
-            <div class="row py-md-8">
-                <div class="col-xl-10 col-md-8 mx-auto">
-                    <h3 class="text-start ubuntu-bold" style="font-size: 60px;">OVERZICHT</h3>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-3 p-3 col-sm-3">
+                    <img src="{{ site.data.opleidingen_studenten.os_sub_main.image_first }}">
+                </div>
+                <div class="col-md-3 p-3 col-sm-3">
+                    <img src="{{ site.data.opleidingen_studenten.os_sub_main.image_second }}">
+                </div>
+                <div class="col-md-3 p-3 col-sm-3">
+                    <img src="{{ site.data.opleidingen_studenten.os_sub_main.image_third }}">
                 </div>
             </div>
-        </section>
+        </div>
     </div>
-    <div class="space"></div>
 </div>
-<img src="assets/img/shutterstock_691552603c222.png" class="img-fluid" />
+<img src="assets/img/shutterstock_691552603c.jpeg" class="img-fluid mb-1" />
