@@ -31,7 +31,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: box_one_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Featured Image, name: box_one_image_first, widget: image, choose_url: true}
                   - {label: Title One, name: box_one_title_first, widget: string}
                   - {label: Title Two, name: box_one_title_second, widget: string}
                   - {label: Description Text, name: box_one_text_description, widget: text}
@@ -41,7 +41,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: box_two_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Featured Image, name: box_two_image_first, widget: image, choose_url: true}
                   - {label: Title One, name: box_two_title_first, widget: string}
                   - {label: Title Two, name: box_two_title_second, widget: string}
                   - {label: Description Text, name: box_two_text_description, widget: text}
@@ -51,7 +51,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: box_three_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Featured Image, name: box_three_image_first, widget: image, choose_url: true}
                   - {label: Title One, name: box_three_title_first, widget: string}
                   - {label: Title Two, name: box_three_title_second, widget: string}
                   - {label: Description Text, name: box_three_text_description, widget: text}
@@ -61,7 +61,7 @@ collections:
                 widget: "object"
                 collapsed: true
                 fields:
-                  - {label: Featured Image, name: box_four_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                  - {label: Featured Image, name: box_four_image_first, widget: image, choose_url: true}
                   - {label: Title, name: box_four_title_first, widget: string}
                   - {label: Sub Title, name: box_four_title_second, widget: string}
                   - {label: Description, name: box_four_text_description, widget: text}
@@ -77,7 +77,7 @@ collections:
                   widget: "object"
                   collapsed: true
                   fields:
-                    - {label: Image, name: sub_main_image_first, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                    - {label: Image, name: sub_main_image_first, widget: image, choose_url: true}
                     - {label: Title, name: sub_main_title_first, widget: string}
                     - {label: Description, name: sub_main_text_first, widget: text}
                 - label: "Sub Main Description"
@@ -85,7 +85,7 @@ collections:
                   widget: "object"
                   collapsed: true
                   fields:
-                    - {label: Image, name: sub_main_image_second, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                    - {label: Image, name: sub_main_image_second, widget: image, choose_url: true}
                     - {label: Title, name: sub_main_title_second, widget: string}
                     - {label: Description Text, name: sub_main_text_second, widget: text}
                 - label: "Sub Main Description"
@@ -93,9 +93,31 @@ collections:
                   widget: "object"
                   collapsed: true
                   fields:
-                    - {label: Image, name: sub_main_image_third, widget: image, choose_url: true, default: "/assets/img/shutterstock_508654513.jpg"}
+                    - {label: Image, name: sub_main_image_third, widget: image, choose_url: true}
                     - {label: Title, name: sub_main_title_third, widget: string}
                     - {label: Description, name: sub_main_text_third, widget: text}
                 - {label: Button Text, name: sub_main_text_button, widget: string}
-    
-
+      - file: "_data/overons.yml"
+        label: "Over ons"
+        name: "overons"
+        fields: 
+          - {label: Title, name: overons_title, widget: string}
+          - {label: Title Second, name: overons_title_second, widget: string}
+          - {label: Description, name: overons_description, widget: markdown}
+          - label: "Sub Main"
+            name: "overons_sub_main"
+            widget: "object"
+            collapsed: true 
+            fields:
+              - {label: Sub Main Title, name: overons_sub_main_title, widget: string}
+              - {label: Sub Main Description, name: overons_sub_main_description, widget: string}
+              - {label: Sub Main Title, name: overons_sub_main_title_second, widget: string}
+              - {label: Sub Main Description, name: overons_sub_main_description_second, widget: markdown}
+              - {label: Logo NHL Stenden, name: logo_nhl, widget: image, choose_url: true}
+              - {label: Logo Hanze University, name: logo_hanze, widget: image, choose_url: true}
+              - {label: Logo Provincie Drenthe, name: logo_provincie_drenthe, widget: image, choose_url: true}
+              - {label: Logo Drenthe College, name: logo_drenthe_college, widget: image, choose_url: true}
+              - {label: Logo Alfa College, name: logo_alfa_college, widget: image, choose_url: true}
+              - {label: Logo Rabo Bank, name: logo_rabo_bank, widget: image, choose_url: true}
+              - {label: Logo Drents Ondernemer, name: logo_drents, widget: image, choose_url: true}
+              - {label: Logo VNM, name: logo_vnm, widget: image, choose_url: true}
