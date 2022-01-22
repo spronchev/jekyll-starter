@@ -251,47 +251,40 @@ collections:
           - label: "Section"
             name: "section"
             widget: "list"
-            allow_add: false 
-            collapsed: true 
-            summary: '{{fields.title}}'
+            summary: "{{fields.title - fields.sub_title}}"
             fields:
-              - label: "Row section first"
-                name: "row_first"
-                widget: "object"
-                collapsed: true 
-                fields:
-                  - {label: Image, name: image, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Sub Title, name: sub_title, widget: string}
-                  - {label: Description, name: description, widget: markdown}
-                  - {label: Button text, name: button, widget: string}
-              - label: "Row section second"
-                name: "row_second"
-                widget: "object"
-                collapsed: true 
-                fields:
-                  - {label: Image, name: image, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Sub Title, name: sub_title, widget: string}
-                  - {label: Description, name: description, widget: markdown}
-                  - {label: Button text, name: button, widget: string}
-              - label: "Row section third"
-                name: "row_third"
-                widget: "object"
-                collapsed: true 
-                fields:
-                  - {label: Image, name: image, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Sub Title, name: sub_title, widget: string}
-                  - {label: Description, name: description, widget: markdown}
-                  - {label: Button text, name: button, widget: string}
-              - label: "Row section fourth"
-                name: "row_fourth"
-                widget: "object"
-                collapsed: true 
-                fields:
-                  - {label: Image, name: image, widget: image}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Sub Title, name: sub_title, widget: string}
-                  - {label: Description, name: description, widget: markdown}
-                  - {label: Button text, name: button, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: Sub Title, name: sub_title, widget: string}
+              - {label: Description, name: description, widget: markdown}
+              - {label: Button text, name: button, widget: string}
+              # - label: "Row section second"
+              #   name: "row_second"
+              #   widget: "object"
+              #   collapsed: true 
+              #   fields:
+              #     - {label: Image, name: image, widget: image}
+              #     - {label: Title, name: title, widget: string}
+              #     - {label: Sub Title, name: sub_title, widget: string}
+              #     - {label: Description, name: description, widget: markdown}
+              #     - {label: Button text, name: button, widget: string}
+              # - label: "Row section third"
+              #   name: "row_third"
+              #   widget: "object"
+              #   collapsed: true 
+              #   fields:
+              #     - {label: Image, name: image, widget: image}
+              #     - {label: Title, name: title, widget: string}
+              #     - {label: Sub Title, name: sub_title, widget: string}
+              #     - {label: Description, name: description, widget: markdown}
+              #     - {label: Button text, name: button, widget: string}
+              # - label: "Row section fourth"
+              #   name: "row_fourth"
+              #   widget: "object"
+              #   collapsed: true 
+              #   fields:
+              #     - {label: Image, name: image, widget: image}
+              #     - {label: Title, name: title, widget: string}
+              #     - {label: Sub Title, name: sub_title, widget: string}
+              #     - {label: Description, name: description, widget: markdown}
+              #     - {label: Button text, name: button, widget: string}
