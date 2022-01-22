@@ -212,8 +212,10 @@ collections:
               - {label: Section Description, name: description, widget: markdown}
               - {label: Button, name: button, widget: string}
               - {label: Image, name: image, widget: image, choose_url: true}
-      # - file: "_data/workshop-classes.yml"
-      #   name: "workshop-classes"
-      #   fields: 
-      #     - 
+      - file: "_data/workshop_classes.yml"
+        name: "workshop_classes"
+        label: "Workshop classes"
+        fields: 
+          - {label: Title, name: workshop_title, widget: string}
+          - {label: Description, name: workshop_description, widget: markdown}
           
