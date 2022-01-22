@@ -121,3 +121,81 @@ collections:
               - {label: Logo Rabo Bank, name: logo_rabo_bank, widget: image, choose_url: true}
               - {label: Logo Drents Ondernemer, name: logo_drents, widget: image, choose_url: true}
               - {label: Logo VNM, name: logo_vnm, widget: image, choose_url: true}
+      - file: "_data/aanbod.yml"
+        label: "Aanbod"
+        name: "aanbod"
+        fields:
+          - {label: Title, name: aanbod_title, widget: string}
+          - label: "Section First"
+            name: "section_first"
+            widget: "object"
+            collapsed: true 
+            fields:
+              - {label: Section Description, name: description, widget: markdown}
+              - {label: Section Description Second, name: description_second, widget: markdown}
+              - {label: List Item First, name: item_first, widget: string}
+              - {label: List Item Second, name: item_second, widget: string}
+              - {label: List Item Third, name: item_third, widget: string}
+              - {label: List Item Fourth, name: item_fourth, widget: string}
+              - {label: List Item Fifth, name: item_fifth, widget: string}
+              - {label: Image, name: image, widget: image, choose_url: true}
+          - label: "Section Second"
+            name: "section_second"
+            widget: "object"
+            collapsed: true 
+            fields:
+              - {label: Section Title, name: title, widget: string}
+              - {label: Section Description, name: description, widget: markdown}
+              - {label: List Item First, name: item_first, widget: string}
+              - {label: List Item Second, name: item_second, widget: string}
+              - {label: List Item Third, name: item_third, widget: string}
+              - {label: List Item Fourth, name: item_fourth, widget: string}
+              - {label: Button, name: button, widget: string}
+              - {label: Image, name: image, widget: image, choose_url: true}
+          - label: "Section Third"
+            name: "section_third"
+            widget: "object"
+            collapsed: true 
+            fields:
+              - {label: Image, name: image, widget: image, choose_url: true}
+              - {label: Section Title, name: title, widget: string}
+              - {label: Section Description, name: description, widget: markdown}
+              - {label: List Item First, name: item_first, widget: string}
+              - {label: List Item Second, name: item_second, widget: string}
+              - {label: List Item Third, name: item_third, widget: string}
+              - {label: List Item Fourth, name: item_fourth, widget: string}
+              - {label: List Item Fifth, name: item_fifth, widget: string}
+              - {label: List Item Sixth, name: item_sixth, widget: string}
+              - {label: Button, name: button, widget: string}
+          - label: "Section Fourth"
+            name: "section_fourth"
+            widget: "object"
+            collapsed: true 
+            fields:
+              - {label: Section Title, name: title, widget: string}
+              - {label: Section Description, name: description, widget: markdown}
+              - {label: List Item First, name: item_first, widget: string}
+              - {label: List Item Second, name: item_second, widget: string}
+              - {label: List Item Third, name: item_third, widget: string}
+              - {label: Button, name: button, widget: string}
+              - {label: Image, name: image, widget: image, choose_url: true}
+          - label: "Section Fifth"
+            name: "section_fifth"
+            widget: "object"
+            collapsed: true 
+            fields:
+              - {label: Image, name: image, widget: image, choose_url: true}
+              - {label: Section Title, name: title, widget: string}
+              - {label: Section Description, name: description, widget: markdown}
+              - {label: Button, name: button, widget: string}
+          - label: "Section Sixth"
+            name: "section_sixth"
+            widget: "object"
+            collapsed: true 
+            fields:
+              - {label: Section Title, name: title, widget: string}
+              - {label: Section Description, name: description, widget: markdown}
+              - {label: Button, name: button, widget: string}
+              - {label: Image, name: image, widget: image, choose_url: true}
+              
+              

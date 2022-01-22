@@ -1,0 +1,48 @@
+aanbod_title: Aanbod
+section_first: 
+  description: Grote bedrijven hebben vaak IT-afdelingen of huren externe expertise in voor het ontwikkelen en toepassen van nieuwe technologie. Kleine bedrijven hebben deze mogelijkheid vaak niet. Terwijl er veel kansen liggen in het automatiseren en structuren van data. Zodat u bijvoorbeeld de foutkans in een proces minimaliseert, uw productie verhoogt of klanten beter weet te bereiken. Daarom helpen wij met de inzet van studenten het midden en kleinbedrijf met slimme digitale oplossingen.
+  description_second: De onderwerpen waar onze MBO en HBO studenten u mee kunnen helpen zijn
+  item_first: Basic op orde
+  item_second: Actief online
+  item_third: Slimmer met data
+  item_fourth: Ik heb een idee
+  item_fifth: Ik wil het zelf leren 
+  image: /assets/img/svg-icons.png
+section_second:
+  title: BASIS OP ORDE
+  description: Met de ‘basis op orde’ analyseren studenten de interne automatisering. We brengen in kaart wat u al goed geregeld heeft, wat beter kan en wat noodzakelijk is om direct aan te pakken zodat u op korte termijn snel verbeteringen kunt invoeren. Eigenlijk is het vrij simpel wat doet u nu, wat gaat er goed en wat kan er beter?
+  item_first: Netwerk beveiliging
+  item_second: Security scan
+  item_third: Koppelen systemen en platformen
+  item_fourth: Wifi optimalisatie
+  button: Aanmelden
+  image: /assets/img/svg-icon-laptop.png
+section_third:
+  image: /assets/img/svg-icon-monitor-people.png
+  title: ACTIEF ONLINE
+  description: Of het nu gaat om een (nieuwe) website, het ontwikkelen van een app of een nieuwe functionaliteit op uw website. Studenten kunnen u helpen met het verbeteren van uw online zichtbaarheid, service én meer gemak voor uw klanten.
+  item_first: Web ontwikkeling
+  item_second: Web beveiliging
+  item_third: Web optimalisatie
+  item_fourth: Verbeteren conversi
+  item_fifth: App ontwikkeling
+  item_sixth: User experience
+  button: Aanmelden
+section_fourth:
+  title: SLIMMER MET DATA
+  description: Als ondernemer verzamelt u bewust of onbewust heel veel data. Gegevens over bedrijfsprocessen, klanten, relaties en opdrachten. Wat kunt u nu met al deze informatie? Verzamelt u de juiste data? En heeft u de juiste systemen daarvoor in huis? Onze studenten kunnen een data-analyse maken dat u inzicht heeft in kansen én ontbreken van data. U kunt een uitgebreid advies krijgen over databeheer en ontwikkeling in uw bedrijf.
+  item_first: Data analyse
+  item_second: Databeheer & - systemen
+  item_third: Data ontwikkeling
+  button: Aanmelden
+  image: /assets/img/svg-icon-chart.png
+section_fifth:
+  image: /assets/img/svg-icon-lamp.png
+  title: IK HEB EEN IDEE
+  description: Als ondernemer weet u wat er nodig is voor uw bedrijf. U heeft een idee van de richting of de oplossing maar hoe pakt u dat aan? Waar te beginnen? Met deze dienst helpen we u op weg door de vraag helder te formuleren en concreet samen aan de slag te gaan met de ontwikkeling van een (digitale) dienst..
+  button: Aanmelden
+section_sixth: 
+  title: IK WIL HET ZELF LEREN
+  description: In veel organisaties worden IT-werkzaamheden uitbesteed. U kunt er ook voor kiezen om zelf actief kennis te maken met automatisering en dataverwerking, zo ben je als mkb-er klaar voor de digitale toekomst van je bedrijf. Speciaal voor ondernemers die meer zelf willen doen bieden we deze mini-opleidingen. Samen met andere ondernemers in een kleine groep leert u over automatisering zodat u beter inzicht krijgt in de mogelijkheden en onmogelijkheden van digitalisering van je bedrijf. Bovendien wordt u tijdens de training gelinkt aan een student die samen met u de meest urgente automatiserings- of data- probleem aanpakt en komt met een concreet advies.
+  button: Aanmelden
+  image: /assets/img/svg-icon-book.png

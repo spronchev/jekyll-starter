@@ -14,7 +14,7 @@ title: Home
                 <div class="space-550"></div>
             </div>
             <div class="col text-center">
-                <h1 class="ubuntu-bold" style="font-size: 70px;">Aanbod</h1>
+                <h1 class="ubuntu-bold" style="font-size: 70px;">{{ site.data.aanbod.aanbod_title }}</h1>
             </div>
             <div class="col">
                 <div class="space"></div>
@@ -31,38 +31,32 @@ title: Home
             <section class="py-5 text-center">
                 <div class="row py-md-8">
                     <div class="col-lg-9 col-md-8 mx-auto">
-                        <h3 class="text-start ubuntu" style="font-size: 32px;">Grote bedrijven hebben vaak IT-afdelingen
-                            of huren externe expertise in voor het ontwikkelen en toepassen van nieuwe technologie.
-                            Kleine bedrijven hebben deze mogelijkheid vaak niet. Terwijl er veel kansen liggen in het
-                            automatiseren en structuren van data. Zodat u bijvoorbeeld de foutkans in een proces
-                            minimaliseert, uw productie verhoogt of klanten beter weet te bereiken. Daarom helpen wij
-                            met de inzet van studenten het midden en kleinbedrijf met slimme digitale oplossingen.</h3>
+                        <h3 class="text-start ubuntu" style="font-size: 32px;">{{ site.data.aanbod.section_first.description }}</h3>
                     </div>
                 </div>
                 <div class="row py-md-8 mt-5">
                     <div class="col-lg-9 col-md-8 mx-auto">
-                        <h3 class="text-start ubuntu" style="font-size: 32px;">De onderwerpen waar onze MBO en HBO
-                            studenten u mee kunnen helpen zijn:</h3>
+                        <h3 class="text-start ubuntu" style="font-size: 32px;">{{ site.data.aanbod.section_first.description_second }}</h3>
                     </div>
                 </div>
                 <div class="row py-md-8 mt-3">
                     <div class="col-sm-3 mx-auto">
                         <ul>
-                            <li class="text-start ubuntu">Basic op orde</li>
-                            <li class="text-start ubuntu">Actief online</li>
-                            <li class="text-start ubuntu">Slimmer met data</li>
+                            <li class="text-start ubuntu">{{ site.data.aanbod.section_first.item_first }}</li>
+                            <li class="text-start ubuntu">{{ site.data.aanbod.section_first.item_second }}</li>
+                            <li class="text-start ubuntu">{{ site.data.aanbod.section_first.item_third }}</li>
                         </ul>
                     </div>
                     <div class="col-sm-3 mx-auto">
                         <ul>
-                            <li class="text-start ubuntu">Ik heb een idee</li>
-                            <li class="text-start ubuntu">Ik wil het zelf leren </li>
+                            <li class="text-start ubuntu">{{ site.data.aanbod.section_first.item_fourth }}</li>
+                            <li class="text-start ubuntu">{{ site.data.aanbod.section_first.item_fifth }}</li>
                         </ul>
                     </div>
                 </div>
                 <div class="row py-md-8 mt-3">
                     <div class="col-auto mx-auto">
-                        <img src="assets/img/svg-icons.png" class="img-fluid">
+                        <img src="{{ site.data.aanbod.section_first.image }}" class="img-fluid">
                     </div>
                 </div>
             </section>
@@ -74,24 +68,21 @@ title: Home
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6 mx-auto align-items-center justify-content-center">
-                <h2 class="ubuntu-bold black" style="font-size:60px">BASIS OP ORDE</h2>
-                <p class="ubuntu black my-5">Met de ‘basis op orde’ analyseren studenten de interne automatisering. We
-                    brengen in kaart wat u al goed geregeld heeft, wat beter kan en wat noodzakelijk is om direct aan te
-                    pakken zodat u op korte termijn snel verbeteringen kunt invoeren. Eigenlijk is het vrij simpel: wat
-                    doet u nu, wat gaat er goed en wat kan er beter?</p>
+                <h2 class="ubuntu-bold black" style="font-size:60px">{{ site.data.aanbod.section_second.title }}</h2>
+                <p class="ubuntu black my-5">{{ site.data.aanbod.section_second.description }}</p>
                 <ul class="ms-3">
-                    <li class="ubuntu black">Netwerk beveiliging</li>
-                    <li class="ubuntu black">Security scan</li>
-                    <li class="ubuntu black">Koppelen systemen en platformen</li>
-                    <li class="ubuntu black">Wifi optimalisatie</li>
+                    <li class="text-start ubuntu black">{{ site.data.aanbod.section_second.item_first }}</li>
+                    <li class="text-start ubuntu black">{{ site.data.aanbod.section_second.item_second }}</li>
+                    <li class="text-start ubuntu black">{{ site.data.aanbod.section_second.item_third }}</li>
+                    <li class="text-start ubuntu black">{{ site.data.aanbod.section_second.item_fourth }}</li>
                 </ul>
                 <div class="col mt-5">
                     <button type="button" class="btn dwd-button montserrat-bold black"
-                        style="font-size: 20px;">Aanmelden</button>
+                        style="font-size: 20px;">{{ site.data.aanbod.section_second.button }}</button>
                 </div>
             </div>
             <div class="col-sm-4 mx-auto align-self-center mb-5">
-                <img src="assets/img/svg-icon-laptop.png" class="img-fluid">
+                <img src="{{ site.data.aanbod.section_second.image }}" class="img-fluid">
             </div>
         </div>
     </div>
@@ -100,24 +91,22 @@ title: Home
 <div class="container-fluid bg-black">
     <div class="row d-flex justify-content-center">
         <div class="col-sm-4 mx-auto align-self-center">
-            <img src="assets/img/svg-icon-monitor-people.png" class="img-fluid">
+            <img src="{{ site.data.aanbod.section_third.image }}" class="img-fluid">
         </div>
         <div class="col-md-6 mx-auto mt-5 align-items-center justify-content-center">
-            <h2 class="ubuntu-bold white" style="font-size:60px">ACTIEF ONLINE</h2>
-            <p class="ubuntu white my-5">Of het nu gaat om een (nieuwe) website, het ontwikkelen van een app of een
-                nieuwe functionaliteit op uw website. Studenten kunnen u helpen met het verbeteren van uw online
-                zichtbaarheid, service én meer gemak voor uw klanten.</p>
+            <h2 class="ubuntu-bold white" style="font-size:60px">{{ site.data.aanbod.section_third.title }}</h2>
+            <p class="ubuntu white my-5">{{ site.data.aanbod.section_third.description }}</p>
             <ul class="ms-3">
-                <li class="ubuntu white">Web ontwikkeling</li>
-                <li class="ubuntu white">Web beveiliging</li>
-                <li class="ubuntu white">Web optimalisatie</li>
-                <li class="ubuntu white">Verbeteren conversi</li>
-                <li class="ubuntu white">App ontwikkeling</li>
-                <li class="ubuntu white">User experience</li>
+                <li class="text-start ubuntu">{{ site.data.aanbod.section_third.item_first }}</li>
+                <li class="text-start ubuntu">{{ site.data.aanbod.section_third.item_second }}</li>
+                <li class="text-start ubuntu">{{ site.data.aanbod.section_third.item_third }}</li>
+                <li class="text-start ubuntu">{{ site.data.aanbod.section_third.item_fourth }}</li>
+                <li class="text-start ubuntu">{{ site.data.aanbod.section_third.item_fifth }}</li>
+                <li class="text-start ubuntu">{{ site.data.aanbod.section_third.item_sixth }}</li>
             </ul>
             <div class="col my-5">
                 <button type="button" class="btn dwd-button montserrat-bold black"
-                    style="font-size: 20px;">Aanmelden</button>
+                    style="font-size: 20px;">{{ site.data.aanbod.section_third.button }}</button>
             </div>
         </div>
     </div>
@@ -127,24 +116,20 @@ title: Home
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6 mx-auto align-items-center justify-content-center">
-                <h2 class="ubuntu-bold black" style="font-size:60px">SLIMMER MET DATA</h2>
-                <p class="ubuntu black my-5">Als ondernemer verzamelt u bewust of onbewust heel veel data. Gegevens over
-                    bedrijfsprocessen, klanten, relaties en opdrachten. Wat kunt u nu met al deze informatie? Verzamelt
-                    u de juiste data? En heeft u de juiste systemen daarvoor in huis? Onze studenten kunnen een
-                    data-analyse maken dat u inzicht heeft in kansen én ontbreken van data. U kunt een uitgebreid advies
-                    krijgen over databeheer en ontwikkeling in uw bedrijf.</p>
+                <h2 class="ubuntu-bold black" style="font-size:60px">{{ site.data.aanbod.section_fourth.title }}</h2>
+                <p class="ubuntu black my-5">{{ site.data.aanbod.section_fourth.description }}</p>
                 <ul class="ms-3">
-                    <li class="ubuntu black">Data analyse</li>
-                    <li class="ubuntu black">Databeheer & - systemen</li>
-                    <li class="ubuntu black">Data ontwikkeling</li>
+                    <li class="text-start ubuntu black">{{ site.data.aanbod.section_fourth.item_first }}</li>
+                    <li class="text-start ubuntu black">{{ site.data.aanbod.section_fourth.item_second }}</li>
+                    <li class="text-start ubuntu black">{{ site.data.aanbod.section_fourth.item_third }}</li>
                 </ul>
                 <div class="col mt-5">
                     <button type="button" class="btn dwd-button montserrat-bold black"
-                        style="font-size: 20px;">Aanmelden</button>
+                        style="font-size: 20px;">{{ site.data.aanbod.section_fourth.button }}</button>
                 </div>
             </div>
             <div class="col-sm-4 mx-auto align-self-center mb-5">
-                <img src="assets/img/svg-icon-chart.png" class="img-fluid">
+                <img src="{{ site.data.aanbod.section_fourth.image }}" class="img-fluid">
             </div>
         </div>
     </div>
@@ -153,17 +138,14 @@ title: Home
 <div class="container-fluid bg-black">
     <div class="row d-flex justify-content-center">
         <div class="col-auto align-self-center">
-            <img src="assets/img/svg-icon-lamp.png" class="img-fluid">
+            <img src="{{ site.data.aanbod.section_fifth.image }}" class="img-fluid">
         </div>
         <div class="col-md-4 mt-5 align-self-center">
-            <h2 class="ubuntu-bold white" style="font-size:60px">IK HEB EEN IDEE</h2>
-            <p class="ubuntu white my-5">Als ondernemer weet u wat er nodig is voor uw bedrijf. U heeft een idee van de
-                richting of de oplossing maar hoe pakt u dat aan? Waar te beginnen? Met deze dienst helpen we u op weg
-                door de vraag helder te formuleren en concreet samen aan de slag te gaan met de ontwikkeling van een
-                (digitale) dienst..</p>
+            <h2 class="ubuntu-bold white" style="font-size:60px">{{ site.data.aanbod.section_fifth.title }}</h2>
+            <p class="ubuntu white my-5">{{ site.data.aanbod.section_fifth.description }}</p>
             <div class="col my-5">
                 <button type="button" class="btn dwd-button montserrat-bold black"
-                    style="font-size: 20px;">Aanmelden</button>
+                    style="font-size: 20px;">{{ site.data.aanbod.section_fifth.button }}</button>
             </div>
         </div>
     </div>
@@ -173,22 +155,15 @@ title: Home
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-7 mx-auto align-items-center justify-content-center">
-                <h2 class="ubuntu-bold black" style="font-size:60px">IK WIL HET ZELF LEREN</h2>
-                <p class="ubuntu black my-5">In veel organisaties worden IT-werkzaamheden uitbesteed. U kunt er ook voor
-                    kiezen om zelf actief kennis te maken met automatisering en dataverwerking, zo ben je als mkb-er
-                    klaar voor de digitale toekomst van je bedrijf. Speciaal voor ondernemers die meer zelf willen doen
-                    bieden we deze mini-opleidingen. Samen met andere ondernemers in een kleine groep leert u over
-                    automatisering zodat u beter inzicht krijgt in de mogelijkheden en onmogelijkheden van
-                    digitalisering van je bedrijf. Bovendien wordt u tijdens de training gelinkt aan een student die
-                    samen met u de meest urgente automatiserings- of data- probleem aanpakt en komt met een concreet
-                    advies.</p>
+                <h2 class="ubuntu-bold black" style="font-size:60px">{{ site.data.aanbod.section_sixth.title }}</h2>
+                <p class="ubuntu black my-5">{{ site.data.aanbod.section_sixth.description }}</p>
                 <div class="col mt-5">
                     <button type="button" class="btn dwd-button montserrat-bold black"
-                        style="font-size: 20px;">Aanmelden</button>
+                        style="font-size: 20px;">{{ site.data.aanbod.section_sixth.button }}</button>
                 </div>
             </div>
             <div class="col-sm-4 mx-auto align-self-center mb-5">
-                <img src="assets/img/svg-icon-book.png" class="img-fluid">
+                <img src="{{ site.data.aanbod.section_sixth.image }}" class="img-fluid">
             </div>
         </div>
     </div>
