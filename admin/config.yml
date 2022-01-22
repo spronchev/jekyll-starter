@@ -109,10 +109,10 @@ collections:
             widget: "object"
             collapsed: true 
             fields:
-              - {label: Sub Main Title, name: overons_sub_main_title, widget: string}
-              - {label: Sub Main Description, name: overons_sub_main_description, widget: string}
-              - {label: Sub Main Title, name: overons_sub_main_title_second, widget: string}
-              - {label: Sub Main Description, name: overons_sub_main_description_second, widget: markdown}
+              - {label: Sub Main Title, name: title, widget: string}
+              - {label: Sub Main Description, name: description, widget: string}
+              - {label: Sub Main Title, name: title_second, widget: string}
+              - {label: Sub Main Description, name: description_second, widget: markdown}
               - {label: Logo NHL Stenden, name: logo_nhl, widget: image, choose_url: true}
               - {label: Logo Hanze University, name: logo_hanze, widget: image, choose_url: true}
               - {label: Logo Provincie Drenthe, name: logo_provincie_drenthe, widget: image, choose_url: true}
