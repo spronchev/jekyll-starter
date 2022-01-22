@@ -38,19 +38,32 @@ title: Home
             </section>
         </div>
     </div>
-
 </div>
 <div class="container-fluid marketing bg-black">
     <div class="space"></div>
     <div class="container">
-        <section class="py-5 text-center">
+        <section class="py-5 text-center mb-5">
             <div class="row py-md-8">
                 <div class="col-xl-10 col-md-8 mx-auto">
                     <h3 class="text-start ubuntu-bold" style="font-size: 60px;">OVERZICHT</h3>
                 </div>
             </div>
         </section>
+        {% for post in site.posts %}
+        <div class="row">
+            <div class="col-sm-2">
+                <a href="{{ post.url }}">
+                    <img src="{{ post.image_url }}" style="width:100%; height:auto;">
+                </a>
+            </div>
+            <div class="col-sm-4 align-self-center">
+                <h3 class="ubuntu-bold">{{ post.title }}</h3>
+                <p class="ubuntu white" style="font-size: 20px;">{{ post.description }}</p>
+                <p class="ubuntu white" style="font-size: 20px;">{{ post.date | date: "%-d %B %Y"}}</p>
+            </div>
+        </div>
+        <hr class="white">
+        {% endfor %}
     </div>
-    <div class="space"></div>
 </div>
 <img src="assets/img/shutterstock_691552603c222.png" class="img-fluid" />

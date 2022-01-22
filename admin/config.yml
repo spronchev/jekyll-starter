@@ -6,6 +6,19 @@ backend:
 publish_mode: editorial_workflow
 media_folder: '/assets/img'
 collections:
+  - name: article
+    label: "Articles"
+    folder: "_posts/"
+    create: true 
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - {label: 'Layout', name: layout, widget: hidden, default: 'post'}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+      - {label: 'Description', name: 'description', widget: 'markdown'}
+      - {label: 'Image', name: 'image', widget: 'image'}
   - name: "pages"
     preview_path: ../index
     label: "Pages"
@@ -197,5 +210,8 @@ collections:
               - {label: Section Description, name: description, widget: markdown}
               - {label: Button, name: button, widget: string}
               - {label: Image, name: image, widget: image, choose_url: true}
-              
-              
+      # - file: "_data/workshop-classes.yml"
+      #   name: "workshop-classes"
+      #   fields: 
+      #     - 
+          
