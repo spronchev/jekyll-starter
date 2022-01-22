@@ -250,8 +250,10 @@ collections:
               - {label: Description, name: description, widget: string}
           - label: "Section"
             name: "section"
-            widget: "object"
+            widget: "list"
+            allow_add: false 
             collapsed: true 
+            summary: '{{fields.title}}'
             fields:
               - label: "Row section first"
                 name: "row_first"

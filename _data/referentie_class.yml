@@ -4,8 +4,8 @@ sub_main:
   title: REFERENTIE CASES
   sub_title: Zij gingen jou al voor!
   description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.
-section:
-  - row_first:
+- section:
+  row_first:
     image: /assets/img/image-2.jpg
     title: Klaas
     sub_title: Caramba
@@ -17,7 +17,7 @@ section:
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                             diam
     button: Aanmelden
-  - row_second:
+  row_second:
     image: /assets/img/image-2.jpg
     title: Klaas
     sub_title: Caramba
@@ -29,7 +29,7 @@ section:
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                             diam
     button: Aanmelden
-  - row_third:
+  row_third:
     image: /assets/img/image-2.jpg
     title: Klaas
     sub_title: Caramba
@@ -41,7 +41,7 @@ section:
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                             diam
     button: Aanmelden
-  - row_fourth:
+  row_fourth:
     image: /assets/img/image-2.jpg
     title: Klaas
     sub_title: Caramba
