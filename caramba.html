@@ -46,17 +46,11 @@ title: Home
                                 aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-
-                                <img src="assets/img/aanbod2.png" class="img-fluid">
-                            </div>
+                            {% for item in site.data.caramba.sub_main.carousel %}
                             <div class="carousel-item">
-
-                                <img src="assets/img/Overons-nieuw.jpeg" class="img-fluid">
+                                <img src="{{ item }}" class="img-fluid">
                             </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/Masterclasses.jpeg" class="img-fluid">
-                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
