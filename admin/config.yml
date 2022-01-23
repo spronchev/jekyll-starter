@@ -289,3 +289,18 @@ collections:
                 allow_add: false
                 fields:
                   - {label: Image, name: url, widget: image}
+      - file: "_data/mkb.yml"
+        name: "mkb"
+        label: "MKB Digicafe"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "Sub Main"
+            name: "sub_main"
+            widget: object
+            collapsed: true 
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Sub Title, name: sub_title, widget: string}
+              - {label: Description Left Side, name: description_left, widget: markdown}
+              - {label: Description Right Side, name: description_right, widget: markdown}
+              - {label: Button Text, name: button, widget: string}
