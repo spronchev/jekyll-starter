@@ -251,40 +251,41 @@ collections:
           - label: "Section"
             name: "section"
             widget: "list"
-            summary: "{{fields.title - fields.sub_title}}"
+            collapsed: false
+            allow_add: false
+            summary: '{{ fields.title }}'
             fields:
+              - {label: Title, name: title, widget: string, default: Row first}
               - {label: Image, name: image, widget: image}
-              - {label: Title, name: title, widget: string}
               - {label: Sub Title, name: sub_title, widget: string}
               - {label: Description, name: description, widget: markdown}
               - {label: Button text, name: button, widget: string}
-              # - label: "Row section second"
-              #   name: "row_second"
-              #   widget: "object"
-              #   collapsed: true 
-              #   fields:
-              #     - {label: Image, name: image, widget: image}
-              #     - {label: Title, name: title, widget: string}
-              #     - {label: Sub Title, name: sub_title, widget: string}
-              #     - {label: Description, name: description, widget: markdown}
-              #     - {label: Button text, name: button, widget: string}
-              # - label: "Row section third"
-              #   name: "row_third"
-              #   widget: "object"
-              #   collapsed: true 
-              #   fields:
-              #     - {label: Image, name: image, widget: image}
-              #     - {label: Title, name: title, widget: string}
-              #     - {label: Sub Title, name: sub_title, widget: string}
-              #     - {label: Description, name: description, widget: markdown}
-              #     - {label: Button text, name: button, widget: string}
-              # - label: "Row section fourth"
-              #   name: "row_fourth"
-              #   widget: "object"
-              #   collapsed: true 
-              #   fields:
-              #     - {label: Image, name: image, widget: image}
-              #     - {label: Title, name: title, widget: string}
-              #     - {label: Sub Title, name: sub_title, widget: string}
-              #     - {label: Description, name: description, widget: markdown}
-              #     - {label: Button text, name: button, widget: string}
+      - file: "_data/aanmelden.yml"
+        name: "aanmelden"
+        label: "Aanmelden"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+      - file: "_data/caramba.yml"
+        name: "caramba"
+        label: "Caramba"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "Sub Main"
+            name: "sub_main"
+            widget: object
+            collapsed: true 
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Sub Title, name: sub_title, widget: string}
+              - {label: Description Left Side, name: description_left, widget: markdown}
+              - {label: Description Right Side, name: description_right, widget: markdown}
+              - {label: Email, name: email, widget: string}
+              - {label: Button Text, name: button, widget: string}
+              - label: "Carousel"
+                name: "carousel"
+                widget: "list"
+                collapsed: false
+                allow_add: false
+                fields:
+                  - {label: Image, name: url, widget: image}

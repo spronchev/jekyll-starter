@@ -6,7 +6,7 @@ title: Home
     <div class="row py-md-3 mx-auto">
         <div class="col-auto mx-auto mb-5">
             <div class="space-550"></div>
-            <h1 class="ubuntu-bold" style="font-size: 75px;">Caramba reinigingsmiddelen</h1>
+            <h1 class="ubuntu-bold" style="font-size: 75px;">{{ site.data.caramba.title }}</h1>
             <div class="space"></div>
         </div>
     </div>
@@ -15,29 +15,20 @@ title: Home
             <section class="py-5 text-center container">
                 <div class="row py-md-8">
                     <div class="col-xxl-10 col-md-8 mx-auto">
-                        <h1 class="text-start montserrat-bold black" style="font-size: 60px;">AUTOMATISERING
-                            INKOOPPROCES</h1>
-                        <h1 class="text-start ubuntu-bold black" style="font-size: 65px; color:#C6D658">Klaas Bos</h1>
+                        <h1 class="text-start montserrat-bold black" style="font-size: 60px;">{{ site.data.caramba.sub_main.title }}</h1>
+                        <h1 class="text-start ubuntu-bold black" style="font-size: 65px; color:#C6D658">{{ site.data.caramba.sub_main.sub_title }}</h1>
                     </div>
                 </div>
             </section>
             <div class="row d-flex justify-content-center">
                 <div class="col-sm-4 mx-auto align-items-center justify-content-center me-5">
-                    <p class="ubuntu black">Wij leveren reinigingsmiddelen aan wasstraten. Om stappen vooruit te kunnen
-                        maken als bedrijf moest het inkoopproces verder geautomatiseerd worden. Het was heel veel werk
-                        om alle voorraden bij te houden. Wat is op voorraad of in bestelling en nog niet geleverd? Naar
-                        welke producten is veel vraag? Wat is het seizoenspatroon? Daarbij slokt elke dag het bedrijf
-                        runnen, alle tijd op. Dus het lukte ons niet om een stap vooruit te maken.</p>
+                    <p class="ubuntu black">{{ site.data.caramba.sub_main.description_left }}</p>
                     <button type="button" class="btn dwd-button float-start montserrat-bold mt-5 black"
-                        style="font-size: 20px; width:150px;">Terug</button>
+                        style="font-size: 20px; width:150px;">{{ site.data.caramba.sub_main.button }}</button>
                 </div>
                 <div class="col-sm-4 mx-auto align-items-center justify-content-center">
-                    <p class="ubuntu black" style="font-size:23px">De studenten hebben een programma ontwikkeld waardoor
-                        wij nu met een druk op de knop alles inzichtelijk hebben. Studenten zijn zo handig met
-                        automatiseren. En ook de samenwerking verliep soepel: we spraken elkaar iedere week even kort
-                        via Teams. Ik ben ontzettend blij met het eindproduct.</p>
-                    <p class="ubuntu black mt-3" style="font-size:23px">Kijken wat Digilink Drenthe voor jou kan
-                        doen? Mail ons op: <strong>hello@smartstudentsolutions.nl</strong></p>
+                    <p class="ubuntu black" style="font-size:23px">{{ site.data.caramba.sub_main.description_right }} <strong>{{ site.data.caramba.sub_main.email }}</strong></p>
+
                 </div>
             </div>
         </div>
@@ -45,13 +36,6 @@ title: Home
         <div class="container" style="width: 100%; height: 80%;">
             <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-auto mx-auto d-flex align-items-center">
-                        <!-- <button type="button" data-bs-target="#myCarousel" style="background-color: black;"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button> -->
-                    </div>
                     <div class="col-md-10 mx-auto">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
@@ -75,16 +59,18 @@ title: Home
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto mx-auto d-flex align-items-center">
-                            <!-- <button class="btn btn-light rounded-circle" style="width:100px; height:100px; color:#BFBFBF" type="button" data-bs-target="#myCarousel"
-                            data-bs-slide="next">
-                            <img src="assets/img/icon-arrow-right.png">
-                            <span class="visually-hidden">Next</span>
-                        </button> -->
-                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
             </div>
         </div>
     </div>
+</div>
 </div>
 <img src="assets/img/shutterstock_691552603c.jpeg" class="img-fluid" />
